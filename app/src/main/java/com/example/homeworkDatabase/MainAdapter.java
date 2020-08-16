@@ -1,8 +1,7 @@
-package com.example.roomdatabase;
+package com.example.homeworkDatabase;
 
 import android.app.Activity;
 import android.app.Dialog;
-import android.text.Layout;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -34,7 +33,7 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.ViewHolder> {
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         //Initialize view
         View view = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.list_row_main,parent,false);
+                .inflate(R.layout.recycleview,parent,false);
 
         return new ViewHolder(view);
 
@@ -62,7 +61,7 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.ViewHolder> {
                 //Create dialog
                 final Dialog dialog = new Dialog(context);
                 //Set content view
-                dialog.setContentView(R.layout.dialog_update);
+                dialog.setContentView(R.layout.update);
 
                 //Initialize width
                 int width = WindowManager.LayoutParams.MATCH_PARENT;

@@ -23,18 +23,20 @@
         android:layout_marginTop="8dp">
 
         <Button
+            android:id="@+id/bt_add"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:id="@+id/bt_add"
-            android:text="Add"/>
+            android:background="@android:drawable/button_onoff_indicator_off"
+            android:text="Add" />
 
         <Button
+            android:id="@+id/bt_reset"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:id="@+id/bt_reset"
-            android:text="Reset"/>
+            android:background="@android:drawable/button_onoff_indicator_on"
+            android:text="Reset" />
 
 
     </LinearLayout>
@@ -44,6 +46,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        tools:listitem="@layout/list_row_main" />
+        tools:listitem="@layout/recycleview" />
 
 </LinearLayout>

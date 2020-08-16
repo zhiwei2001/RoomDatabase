@@ -1,4 +1,4 @@
-package com.example.roomdatabase;
+package com.example.homeworkDatabase;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
